@@ -7,9 +7,11 @@
         width: fit-content;
         height: fit-content;
     }
-.title-one-boxone {
-    font-size: 44px;
-}
+
+    .title-one-boxone {
+        font-size: 44px;
+    }
+
     .mainOne_box {
         display: block;
     }
@@ -73,9 +75,11 @@
     .image-headersection {
         position: relative;
     }
-.title-one-boxone {
-    text-align: center;
-}
+
+    .title-one-boxone {
+        text-align: center;
+    }
+
     .box__two-headersection {
         width: fit-content;
         height: fit-content;
@@ -422,25 +426,31 @@
 
 
 }
+
 @media screen and (max-width:600px) {
     .owl-carousel.min {
         display: block !important;
     }
+
     .carousel_min.min {
         display: none !important;
     }
+
     .carousel_box {
         margin-bottom: 30px;
     }
+
     .button__maintwo {
         font-size: 20px !important;
         line-height: 20px !important;
     }
+
     .navbar {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     /* .navbar__img {
         margin: 0;
         margin-bottom: 30px;
@@ -448,21 +458,51 @@
     .nutton__two_navbar {
         display: none;
     }
+
     .nutton__two_navbar.tel {
         display: block;
     }
+
     .navbar__box {
         justify-content: end;
         width: fit-content;
     }
+
     .button__navbar {
         margin-right: 15px;
     }
+
+    .navbar__img img {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
 }
+
 @media screen and (max-width:450px) {
-    .text_maintwo{
+    .text_maintwo {
         font-size: 15px;
         line-height: 15px;
     }
 
+
+
+}
+
+@media screen and (max-width:370px) {
+    .header .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navbar__img {
+        margin: 0;
+    }
+    .navbar__box {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
