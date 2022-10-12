@@ -8,7 +8,6 @@ let directParentHasClass =
 if (document.documentElement.clientWidth > 1270) {
   window.addEventListener("scroll", function (e) {
     console.log(`${scrollY}px`);
-
     if (scrollY > 30) {
       window.addEventListener("click", function (f) {
         if (header.parentElement?.parentElement?.classList.contains("light")) {
@@ -46,13 +45,13 @@ if (document.documentElement.clientWidth > 1270) {
       menu__link[2].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
-    if (scrollY >= 2400) {
+    if (scrollY >= 1600) {
       menu__link[0].classList.remove("active");
       menu__link[2].classList.add("active");
       menu__link[1].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
-    if (scrollY >= 3400) {
+    if (scrollY >= 2400) {
       menu__link[0].classList.remove("active");
       menu__link[1].classList.remove("active");
       menu__link[2].classList.remove("active");
@@ -69,7 +68,6 @@ if (document.documentElement.clientWidth > 1270) {
   
   window.addEventListener("scroll", function (e) {
     console.log(`${scrollY}px`);
-
     if (scrollY > 30) {
       window.addEventListener("click", function (f) {
         if (header.parentElement?.parentElement?.classList.contains("light")) {
