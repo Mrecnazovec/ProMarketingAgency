@@ -472,13 +472,14 @@
         margin-right: 15px;
     }
 
-    .navbar__img img {
+    .navbar__img img, .logo_img {
         transform: scale(0.8);
         -webkit-transform: scale(0.8);
         -moz-transform: scale(0.8);
         -ms-transform: scale(0.8);
         -o-transform: scale(0.8);
     }
+
 }
 
 @media screen and (max-width:450px) {
@@ -498,9 +499,11 @@
         justify-content: center;
         flex-direction: column;
     }
+
     .navbar__img {
         margin: 0;
     }
+
     .navbar__box {
         width: 100%;
         justify-content: space-between;
