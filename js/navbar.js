@@ -37,8 +37,8 @@ if (document.documentElement.clientWidth > 1270) {
     }
     if (scrollY > 907) {
       menu__link[0].classList.remove("active");
-      menu__link[1].classList.remove("active");
-      menu__link[2].classList.add("active");
+      menu__link[2].classList.remove("active");
+      menu__link[1].classList.add("active");
       menu__link[3].classList.remove("active");
     } else if (scrollY < 907) {
       menu__link[0].classList.add("active");
@@ -46,13 +46,13 @@ if (document.documentElement.clientWidth > 1270) {
       menu__link[2].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
-    if (scrollY >= 1600) {
+    if (scrollY >= 2400) {
       menu__link[0].classList.remove("active");
-      menu__link[1].classList.add("active");
-      menu__link[2].classList.remove("active");
+      menu__link[2].classList.add("active");
+      menu__link[1].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
-    if (scrollY >= 2400) {
+    if (scrollY >= 3400) {
       menu__link[0].classList.remove("active");
       menu__link[1].classList.remove("active");
       menu__link[2].classList.remove("active");
@@ -98,8 +98,8 @@ if (document.documentElement.clientWidth > 1270) {
     }
     if (scrollY > 907) {
       menu__link[0].classList.remove("active");
-      menu__link[1].classList.remove("active");
-      menu__link[2].classList.add("active");
+      menu__link[2].classList.remove("active");
+      menu__link[1].classList.add("active");
       menu__link[3].classList.remove("active");
     } else if (scrollY < 907) {
       menu__link[0].classList.add("active");
@@ -107,10 +107,10 @@ if (document.documentElement.clientWidth > 1270) {
       menu__link[2].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
-    if (scrollY >= 2300) {
+    if (scrollY >= 2700) {
       menu__link[0].classList.remove("active");
-      menu__link[1].classList.add("active");
-      menu__link[2].classList.remove("active");
+      menu__link[2].classList.add("active");
+      menu__link[1].classList.remove("active");
       menu__link[3].classList.remove("active");
     }
     if (scrollY >= 3400) {
