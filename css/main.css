@@ -728,7 +728,10 @@ body.light {
 .carousel_img.hover {
     display: none !important;
 }
-
+.carousel_img.uxc {
+    width: 199px;
+height: 35px;
+}
 .carousel_img.light {
     display: none !important;
 }
